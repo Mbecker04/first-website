@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    border-width: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: ;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h2{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid black;
+}
+
+.page{
+    margin-left:20%;
+    padding:1px 16px;
+    height:1000px;
+}
+.navBar {
+    display:flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    border-right: solid black;
+    position: fixed;
+    background-image: url(koinav.jpg)
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.navMenu li{
+    display: block;
+    background-color: white;
+}
+
+.cont--koiPic {
+    display: flex;
+    align-items: center;
+}
